@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+
+
+main{
+    display: flex;
+}
+
+#left #bg{
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Card Front */
+#left #card-front{
+    position: absolute;
+    top: 183px;
+    left: 165px;
+}
+
+#left #num{
+    position: absolute;
+    top: 315px;
+    left: 197px;
+    font-size: 32px;
+    color: hsl(0, 0%, 100%);
+}
+
+#left #name{
+    position: absolute;
+    top: 380px;
+    left: 197px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+#left #exp{
+    position: absolute;
+    top: 380px;
+    left: 525px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+#left #icons{
+    position: absolute;
+    top: 210px;
+    left: 197px;
+}
+
+/* Card Back */
+#left #card-back {
+    position: absolute;
+    top: 465px;
+    left: 265px;
+}
+
+#left #
+
+
+
+/* FOOTER */
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+    
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
